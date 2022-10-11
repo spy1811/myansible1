@@ -9,7 +9,7 @@
           when: ansible_os_family=="Debian"
 
         - name: i want to install java package on Redhat
-          apt:
+          yum: 
               name: java-1.8.0-openjdk
               state: present 
           when: ansible_os_family=="RedHat"
