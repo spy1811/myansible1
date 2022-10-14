@@ -1,0 +1,5 @@
+---
+mywebserveronubuntu: apache2
+mywebserveronRedhat: httpd 
+mywebserveronubuntu: openjdk-8-jre
+mywebserveronRedhat: java-1.8.0-openjdk
